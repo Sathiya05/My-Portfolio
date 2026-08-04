@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FiMail, FiPhone, FiMapPin, FiSend, FiLinkedin, FiGithub } from 'react-icons/fi'
+import { FaWhatsapp } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
 
 const SERVICE_ID = 'service_kgzs8ds'
@@ -59,7 +60,7 @@ export default function Contact() {
                     <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: `${color}15`, color }}><Icon size={18} /></div>
                     <div>
                       <p className="text-xs c-muted">{label}</p>
-                      {href ? <a href={href} className="c-heading text-sm hover:text-primary transition-colors">{value}</a> : <p className="c-heading text-sm">{value}</p>}
+                      {href ? <a href={href} target="_blank" rel="noopener noreferrer" className="c-heading text-sm hover:text-primary transition-colors">{value}</a> : <p className="c-heading text-sm">{value}</p>}
                     </div>
                   </div>
                 ))}
@@ -67,6 +68,7 @@ export default function Contact() {
               <div className="flex gap-3 mt-6 pt-6 border-t c-border-subtle">
                 <a href="https://www.linkedin.com/in/sathiya-priya-s-3179b8257/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl c-tag flex items-center justify-center c-muted hover:text-primary hover:bg-primary/10 transition-all"><FiLinkedin size={18} /></a>
                 <a href="https://github.com/Sathiya05" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl c-tag flex items-center justify-center c-muted hover:text-primary hover:bg-primary/10 transition-all"><FiGithub size={18} /></a>
+                <a href="https://wa.me/917812841311" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl c-tag flex items-center justify-center c-muted hover:text-primary hover:bg-primary/10 transition-all"><FaWhatsapp size={18} /></a>
               </div>
             </div>
           </motion.div>
