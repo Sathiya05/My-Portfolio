@@ -28,7 +28,7 @@ const projects = [
     description: 'Developed responsive, production-style web interfaces with HTMl, Tailwind CSS, Javascript and modern layouts. Ensured cross-browser, cross-device responsiveness following UI/UX best practices.',
     tags: ['React.js', 'JavaScript', 'Tailwind CSS', 'REST APIs', 'HTML', 'CSS'],
     icon: FiCode, color: '#6366f1', gradient: 'from-indigo-400/20 to-purple-500/20',
-        image: 'public/projects/frontend.png',
+        image: '/projects/frontend.png',
     github: 'https://github.com/Sathiya05/Kombucha-Brewery',
 
     features: ['Reusable React component library', 'REST API integration', 'Cross-browser compatibility', 'Mobile-first responsive design', 'Performance optimized rendering', 'Modern UI/UX patterns'],
@@ -103,7 +103,7 @@ const projects = [
     description: 'Designed and built a professional WordPress website using Elementor drag-and-drop page builder, creating responsive layouts and a fully functional content-managed site without hand-coding.',
     tags: ['WordPress', 'Elementor', 'HTML', 'CSS', 'MySQL', 'Canva'],
     icon: FiLayout, color: '#21759b', gradient: 'from-sky-400/20 to-indigo-500/20',
-    image: 'public/projects/wordpress.png',
+    image: '/projects/wordpress.png',
     github: '',
     features: ['Drag-and-drop page design with Elementor', 'Pre-built widget & template customization', 'Responsive layout adjustments', 'Theme customization via Elementor settings', 'Plugin integration for extended functionality', 'SEO & performance optimization'],
     detailedDescription: [
