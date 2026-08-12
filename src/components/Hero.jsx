@@ -52,8 +52,10 @@ export default function Hero() {
             <TypeAnimation
               sequence={[
                 'Frontend Developer', 2000,
+                'React Developer', 2000,
                 'MERN Stack Developer', 2000,
                 'UI/UX Designer', 2000,
+
               ]}
               speed={50}
               repeat={Infinity}
