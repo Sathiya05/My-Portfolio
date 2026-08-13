@@ -7,7 +7,7 @@ import {
 
 const stats = [
   { value: 6, suffix: '+', label: 'Certifications', color: '#0ea5e9' },
-  { value: 4, suffix: '+', label: 'Projects', color: '#6366f1' },
+  { value: 10, suffix: '+', label: 'Projects', color: '#6366f1' },
   { value: 10, suffix: '+', label: 'Technologies', color: '#8b5cf6' },
 ]
 
