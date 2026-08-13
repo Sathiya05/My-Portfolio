@@ -154,7 +154,7 @@ export default function Experience() {
             </div>
             <div className="w-px h-10 c-border-subtle" />
             <div className="text-center">
-              <p className="text-2xl font-bold" style={{ color: '#6366f1' }}>3+</p>
+              <p className="text-2xl font-bold" style={{ color: '#6366f1' }}>10+</p>
               <p className="text-xs c-muted mt-0.5">Projects Built</p>
             </div>
             <div className="w-px h-10 c-border-subtle" />
