@@ -69,10 +69,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7 }}
           >
-            Computer Science Engineer passionate about innovative problem-solving
-            and engaged with emerging technologies. Committed to contributing to
-            cutting-edge projects and delivering impactful solutions.
-          </motion.p>
+I enjoy transforming ideas and designs into interactive digital experiences while focusing on clean code, responsive design, performance and usability. I'm continuously learning and expanding my skills across frontend and full-stack development. </motion.p>
 
           {/* CTA Buttons */}
           <motion.div
